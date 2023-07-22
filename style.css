@@ -8,6 +8,10 @@
    font-family: 'Roboto', sans-serif;
 }
 
+body {
+    zoom: 2;
+}
+
 .timer-box {
     background-color: #34344A;
     align-items: center;
