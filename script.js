@@ -43,7 +43,7 @@ set_alarm_btn.addEventListener('click', (event) => {
             console.log(timers);
             initializeTimers(timers[timers.length - 1]);
         }
-        // else prompt('Please enter valid time!!!!');
+        else alert('Please enter valid time!!!! ex -> 00:00:05');
 }
 
 const timersList = document.getElementById('timers-list');
