@@ -150,9 +150,4 @@ function stopMusic() {
     audioElement.currentTime = 0;
 }
 
-function zoom() {
-    document.body.style.zoom = "100%" 
-}
-
-
 setInterval(noAlarmOnScreen, 100);
